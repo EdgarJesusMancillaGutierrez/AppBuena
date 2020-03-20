@@ -9,6 +9,7 @@ import Login from './src/Login';
 import Principal from './src/Principal';
 import Indicator from './src/Indicator';
 import Planetas from './src/films';
+import Movies from './src/Movies';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,9 @@ const App:  () => React$Node = () =>{
         <Stack.Screen 
         name="Films" 
         component={Films} />
+     <Stack.Screen 
+        name="Movies" 
+        component={Movies} />
         <Stack.Screen 
         name="Registro" 
         component={Registro} />
